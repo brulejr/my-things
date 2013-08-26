@@ -1,0 +1,17 @@
+{
+  "name": "my-things",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "config": "*",
+    "express": "3.3.5",
+    "jade": "*",
+    "lingua": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}

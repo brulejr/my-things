@@ -1,0 +1,26 @@
+extends layout
+
+block head
+  title #{lingua.title} <#{env}>
+
+block header
+  div.navbar-inner
+    div.container
+      a.brand(ref="#",ng-click="tabs[0].active = true") #{lingua.appname}
+      div.nav-collapse.collapse
+        ul.nav.pull-right
+          li.about-menu
+            a(href="#about") #{lingua.about}
+
+block footer
+  span.muted.credit #{lingua.appname} - v#{version}
+
+block body
+  div.content
+    tabset
+      tab(ng-repeat="tab in tabs | filter: enabledTab()", active="tab.active")
+        tab-heading {{tab.title}}
+          span(ui-hide="!tab.closable")
+            a(ng-click="removeTab($index)", href="")
+              i.icon-remove
+        ng-include(src="tab.template")

@@ -1,0 +1,98 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+.page {
+	height: 100% !important;
+	width: 100%;
+}
+
+.page>.header {
+	position: absolute;
+	height: 41px;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.page>.header>.navbar-inner>.container {
+	width: auto;
+	margin-left: 10px;
+}
+
+.page>.footer {
+	position: absolute;
+	height: 20px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	text-align: center;
+	font-size: small; 
+}
+
+.page>.body {
+	position: absolute;
+	top: 46px;
+	bottom: 20px;
+	left: 5px;
+	right: 5px;
+	overflow: hidden;
+	padding: 1px;
+}
+
+.page>.body>.content {
+	position: absolute;
+	top: 3px;
+	bottom: 3px;
+	left: 3px;
+	right: 3px;
+}
+
+.tabbable {
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+.tabbable li i.icon-remove {
+	margin-left: 8px;
+}
+
+.tabbable .nav-tabs {
+	padding-left: 7px;
+	height: 28px;
+}
+.tabbable .nav-tabs li {
+	height: 28px;
+}
+.tabbable .nav-tabs li a {
+	height: 10px;
+	line-height: 12px;
+	font-size: 12px;
+}
+.tabbable li.active {	
+}
+.tabbable>.tab-content {
+	position: absolute;
+	top: 28px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	border: 1px solid darkgray;
+	border-left: none;
+	border-top: none;
+	padding: 10px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+.tabbable>.tab-content div.active {
+}
+
+.ui-hide {
+	display: none;
+}
