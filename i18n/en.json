@@ -1,5 +1,17 @@
 {
+
   "about": "About",
   "appname": "My Things",
-  "title": "My Things - Keepin' em found..."
+  "title": "My Things - Keepin' em found...",
+
+  "AboutDialog": {
+  	"appname": "Application",
+  	"environment": "Environment",
+  	"header_property": "Property",
+  	"header_value": "Value",
+  	"license": "License",
+  	"title": "About this application...",
+  	"version": "Version"
+  }
+
 }

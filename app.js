@@ -17,6 +17,7 @@ app.configure(function() {
 	app.locals.appname = pjson.name
 	app.locals.config = config;
 	app.locals.env = app.get('env');
+	app.locals.license = pjson.license
 	app.locals.version = pjson.version
 
   app.use(lingua(app, {

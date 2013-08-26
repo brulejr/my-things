@@ -51,3 +51,18 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+.aboutDialog {
+}
+
+.aboutDialog .modal-header {
+	background-color: #3b5998;
+	color: white;
+	-webkit-border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.aboutDialog table thead {
+	background-color: #dfe3ee;
+}
