@@ -7,11 +7,13 @@
     "start": "nodemon app.js"
   },
   "dependencies": {
+    "cluster": "*",
     "config": "*",
     "express": "3.3.5",
     "jade": "*",
     "lingua": "*",
-    "log4js": "*"
+    "log4js": "*",
+    "strong-cluster-control": "*"
   },
   "devDependencies": {
     "nodemon": "*"
