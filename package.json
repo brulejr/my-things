@@ -10,7 +10,8 @@
     "config": "*",
     "express": "3.3.5",
     "jade": "*",
-    "lingua": "*"
+    "lingua": "*",
+    "log4js": "*"
   },
   "devDependencies": {
     "nodemon": "*"
